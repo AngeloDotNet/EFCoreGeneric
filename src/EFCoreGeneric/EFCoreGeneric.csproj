@@ -10,9 +10,11 @@
   <PropertyGroup>
       <TargetFrameworks>net6.0</TargetFrameworks>
       <Description>entity framework core generic library</Description>
+      <PackageLicenseExpression>MIT</PackageLicenseExpression>
       <RepositoryType>git</RepositoryType>
       <RepositoryUrl>https://github.com/AngeloDotNet/EFCoreGenericLibraryV3</RepositoryUrl>
       <RepositoryBranch>main</RepositoryBranch>
+      <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
     
   <ItemGroup>
@@ -25,6 +27,10 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+      <None Include="..\..\README.md" Pack="true" PackagePath="\" />    
   </ItemGroup>
 
 </Project>
