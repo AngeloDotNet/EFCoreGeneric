@@ -1,12 +1,11 @@
-﻿# EFCore Generic Library V3
+# EFCore Generic Library V3
 
-If you like this repository, please drop a :star: on Github!
+If you like this repository, please drop a :star: on <a href="https://bit.ly/3m1cgEe">Github</a>!
 
 
 ## Installation
 
-The library is available on NuGet. Just search for *EFCoreGeneric* in the
-Package Manager GUI or run the following command in the .NET CLI:
+The library is available on <a href="https://bit.ly/3xKgkvc">NuGet</a> or run the following command in the .NET CLI:
 
 ```bash
 dotnet add package EFCoreGeneric
