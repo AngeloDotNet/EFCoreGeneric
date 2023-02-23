@@ -5,15 +5,50 @@ If you like this repository, please drop a :star: on Github!
 
 ## Installation
 
-The library is available on NuGet. Just search for *EFCoreGeneric* in the
-Package Manager GUI or run the following command in the .NET CLI:
+The library is available on NuGet. Just search for *EFCoreGeneric* in the Package Manager GUI or run the following command in the .NET CLI:
 
 ```bash
 dotnet add package EFCoreGeneric
 ```
 
 
-## Example class implements methods
+## Example entity
+
+In this example, the entity is a data model that implements the *IEntity* interface and has a primary key of type *int*.
+
+```csharp
+namespace MyNet6Project;
+
+public class MyEntity : IEntity<int>
+{
+    public int Id { get; set; }
+    public string Name { get; set; }
+    public string Description { get; set; }
+}
+```
+
+
+## Example interface
+
+In this example, the interface is a service that implements the *IMyService* interface.
+
+```csharp
+namespace MyNet6Project;
+
+public interface IMyService
+{
+    Task<List<MyEntity>> GetListItemAsync();
+    Task<MyEntity> GetItemAsync(int id);
+    Task CreateItemAsync(MyEntity item);
+    Task UpdateItemAsync(MyEntity item);
+    Task DeleteItemAsync(MyEntity item);
+}
+```
+
+
+## Example class
+
+In this example, the class is a service that implements the *IMyService* interface.
 
 ```csharp
 namespace MyNet6Project;
