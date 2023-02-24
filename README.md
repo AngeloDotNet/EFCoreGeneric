@@ -1,11 +1,11 @@
 # EFCore Generic Library V3
 
-If you like this repository, please drop a :star: on <a href="https://bit.ly/3m1cgEe">Github</a>!
+If you like this repository, please drop a :star: on Github!
 
 
 ## Installation
 
-The library is available on <a href="https://bit.ly/3xKgkvc">NuGet</a> or run the following command in the .NET CLI:
+The library is available on  [NuGet](https://www.nuget.org/packages/EFCoreGeneric) or run the following command in the .NET CLI:
 
 ```bash
 dotnet add package EFCoreGeneric
@@ -108,3 +108,12 @@ public void ConfigureServices(IServiceCollection services)
 ## Contributing
 
 Contributions and/or suggestions are always welcome.
+
+
+## Badges
+
+[![Publish](https://github.com/AngeloDotNet/EFCoreGenericLibraryV3/actions/workflows/publish.yml/badge.svg?branch=main)](https://github.com/AngeloDotNet/EFCoreGenericLibraryV3/actions/workflows/publish.yml)
+
+[![Lint Code Base](https://github.com/AngeloDotNet/EFCoreGenericLibraryV3/actions/workflows/linter.yml/badge.svg?branch=main)](https://github.com/AngeloDotNet/EFCoreGenericLibraryV3/actions/workflows/linter.yml)
+
+[![CodeQL](https://github.com/AngeloDotNet/EFCoreGenericLibraryV3/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/AngeloDotNet/EFCoreGenericLibraryV3/actions/workflows/codeql.yml)
