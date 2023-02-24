@@ -18,7 +18,8 @@ public class Database<TEntity, TKey> : IDatabase<TEntity, TKey> where TEntity : 
 
     public async Task<TEntity> GetByIdAsync(TKey id)
     {
-        var entity = await DbContext.Set<TEntity>().FindAsync(id);
+        var entity = await DbContext.Set<TEntity>()
+            .FindAsync(id);
 
         if (entity == null)
         {
