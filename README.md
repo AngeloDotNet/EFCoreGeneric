@@ -5,7 +5,7 @@ If you like this repository, please drop a :star: on Github!
 
 ## Installation
 
-The library is available on  [NuGet](https://www.nuget.org/packages/EFCoreGeneric) or run the following command in the .NET CLI:
+The library is available on [NuGet](https://www.nuget.org/packages/EFCoreGeneric) or run the following command in the .NET CLI:
 
 ```bash
 dotnet add package EFCoreGeneric
