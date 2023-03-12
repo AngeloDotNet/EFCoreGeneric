@@ -1,4 +1,4 @@
-# EFCore Generic Library V3
+# Entity Framework Core Generic
 
 If you like this repository, please drop a :star: on Github!
 
